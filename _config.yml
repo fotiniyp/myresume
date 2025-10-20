@@ -1,6 +1,6 @@
 # Site
-repository: sproogen/modern-resume-theme
-# favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -13,79 +13,104 @@ title: Product Designer
 darkmode: false
 
 # Social links
-github_username: -
-linkedin_username: -
+github_username:  e-liouta
+linkedin_username: effie-lt
 
 # About Section
-# about_title: About Me
-# about_profile_image: images/profile.jpg
-about_content: |
-  Enthusiastic UI/UX Designer.
+# about_title: About Me (Use this to override about section title)
+#about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Effie and I'm a Web Developer. As well as web developer I also have experience as a graphic designer. I have worked at a number of companies gaining teamwork skill. Also I am a member of the HCI Webring check this out [here](https://upatras-hci-2022.github.io/webring/).
 
 content:
-  - title: Experience
-    layout: list
+  -title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Novibet
-        sub_title: Product Designer
-        caption: May 2025 - Present
-        description: |
-          Designed end-to-end user experiences for web and mobile platforms.
-
-      - layout: left
-        title: Core Group
-        sub_title: UI/UX Designer
-        caption: Sept 2022 - Apr 2025
-        description: |
-          Redesigned user journeys and created prototypes for web applications.
-
-      - layout: left
-        title: MMA Architects
-        sub_title: Architect
-        caption: Sept 2021 - Aug 2022
-        description: |
-          Created detailed architectural plans and 3D models for residential projects.
-
-  - title: Education
-    layout: list
+      -layout: left
+      title: QA auth
+      sub_title: Web Developer
+      caption: Sept 2022 - Current
+      description: | # this will include new lines to allow paragraphs
+        Curently upgrating the website of the qa.auth.gr. The strugle is that there is a huge database with very important information. I am working on this project about one month and until now I learnt Postman Api Plantform and GitLab.
+            
+      -layout: left
+      title: Plantech.gr
+      sub_title: Web Designer & Developer
+      caption: May 2019 - September 2022
+      description: | # this will include new lines to allow paragraphs
+        At the time I was working for Plantech mainly I had to design responsive website, building them using CMS, care about their google score - SEO, optimize thei databases if needed and generally maintain the sites in a good health.
+            
+   
+      -layout: left
+      title: aLearning.gr
+      sub_title: Graphic Designer
+      caption: Jul 2020 - Feb 2021
+      description: | # this will include new lines to allow paragraphs
+        This was a great project. I had to illustrate books for educational purposes for children with learning disabilities as well as advertisements and social media posts in order to promote the books.
+            
+      -layout: left
+      title: Click.Solutions
+      sub_title: Junior Web Developer
+      caption: Jan 2019 - Apr 2019
+      description: | # this will include new lines to allow paragraphs
+        During the time I was working for Click Solutions I was developing websites using CMS.
+            
+            
+  -title: Education # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: MSc in Human Computer Interaction
-        sub_title: University of Patras
-
-      - layout: left
-        title: Integrated Master in Architectural Engineering
-        sub_title: Aristotle University of Thessaloniki
-
-  - title: Skills
+      -layout: left
+      title: University of Patrs
+      caption: 2022 - present
+      sub_title: MSc, Human Computer Interaction
+      description: | # this will include new lines to allow paragraphs
+        I just started this program and I am very excited!
+         
+      -layout: left
+      title: Institute of Vocational Training Delta 360
+      caption: 2018 - 2020
+      sub_title: Diploma of Graphic Design for print and electronic media
+      description: | # this will include new lines to allow paragraphs
+       During this programm at the Institute od Vocational Delta 360 I developed skills such as drawing, aesthetics, color theory, branding, motion graphics, web design and graphic design. Some of the tools I used are Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe AfterEffects, Adobe Dreamweaver, Adobe Premier, Figma... 
+    
+      -layout: left
+      title: University Of Ioannina
+      caption: 2012 - 2018
+      sub_title: BSc, Computer Science
+      description: | # this will include new lines to allow paragraphs
+        During my studies at the department of computer scence at the Univeristy of Ioannina I had the opportunity to learn about many fields. My favourites were Computer Graphics, Multimedia and Operating Systems.
+    
+  -title: A Little More About Me
     layout: text
-    content: |
-      Figma • Adobe XD • Autocad • Rhino 3D • Adobe Photoshop • Adobe Indesign • HTML • CSS
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in Web some of my other interests and hobbies are dancing, hiking, painting, snorkeling, traveling and educating myself and my friends about a more sustainable, consius and ethical lifestyle.
+      
+  
 
 # Footer
 footer_show_references: true
-# references_title: References on request
+# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme
-# remote_theme: sproogen/modern-resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - lib/
-  - scripts/
-  - docker-compose.yml
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]
