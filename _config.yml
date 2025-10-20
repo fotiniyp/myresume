@@ -26,22 +26,22 @@ content:
     layout: list
     content:
       - layout: left
-        title: Novibet
-        sub_title: Product Designer
+        title: Product Designer
+        sub_title: Novibet
         caption: May 2025 - Present
         description: |
           Designed end-to-end user experiences for web and mobile platform
 
       - layout: left
-        title: Core Group
-        sub_title: UI/UX Designer
+        title: UI/UX Desginer
+        sub_title: Core Group
         caption: Sept 2022 - Apr 2025
         description: |
           Designed end-to-end user experiences for web and mobile platform
 
       - layout: left
-        title: MMA Architects
-        sub_title: Architect
+        title: Αρψηιτεψτ
+        sub_title: MMA Architects
         caption: Sept 2021 - Aug 2022
         description: |
           Designed end-to-end user experiences for web and mobile platform
