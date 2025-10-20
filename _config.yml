@@ -54,11 +54,7 @@ about_profile_image: landscape-trees.jpg
 about_content: | # this will include new lines to allow paragraphs
   Enthusiastic UI/UX Desginer.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  
 
 content:
   - title: Projects # Title for the section
@@ -96,18 +92,18 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+      - layout: top-left
+        title: Unifersity of Patras
+        #sub_title: Qualifications (eg. BA Performing Arts)
+        #caption: Date Range (eg. 2016 - 2019)
+        #quote: >
+          #Short institution or course description (optional)
+       # description: | # this will include new lines to allow paragraphs
+          #Description of qualification
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Figma • Adobe XD • Autocad • Rhino 3D • Adobe Photoshop • Adobe Indesign • HTML • CSS
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
