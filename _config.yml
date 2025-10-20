@@ -49,7 +49,7 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
+        #border: weak
         title: Google UX Design Certificate
         #link_text: Link Text
         #additional_links:
