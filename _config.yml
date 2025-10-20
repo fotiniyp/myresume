@@ -20,22 +20,7 @@ about_content: |
   Enthusiastic UI/UX Designer.
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: right
-        border: weak
-        title: Project name
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/example
-        quote: >
-          Short overview of the project
-        description: |
-          Description about the work on/with the project
-
+  
   - title: Experience
     layout: list
     content:
@@ -59,7 +44,22 @@ content:
         caption: Sept 2021 - Aug 2022
         description: |
           Designed end-to-end user experiences for web and mobile platform
-
+          
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Google UX Design Certificate
+        #link_text: Link Text
+        #additional_links:
+          #- title: Github page for project
+            #icon: fab fa-github
+            #url: https://github.com/example
+        #quote: >
+          #Short overview of the project
+        description: |
+         Completed training designed for entry-level job readiness. Topics included UX research fundementals, inclusive design, wireframes, low and high-fidelity prototypes.
   - title: Education
     layout: list
     content:
