@@ -18,7 +18,7 @@ linkedin_username: ""
 about_profile_image: images/avatar.png
 about_content: |
   Enthusiastic Product Designer with a passion for creating intuitive and engaging user experiences across web and mobile platforms.
-  Skilled in translating complex problems into elegant design solutions. Experienced in collaborating with cross-functional teams to deliver user-centered products that align with business goals.
+  Skilled in translating complex problems into design solutions. Experienced in collaborating with cross-functional teams to deliver user-centered products that align with business goals.
   
 content:
   
@@ -73,7 +73,7 @@ content:
       - layout: top-left
         title: MSc in Human-Computer Interaction
         sub_title: University of Patras
-        caption: Date Range (eg. 2016 - 2019)
+        #caption: Date Range (eg. 2016 - 2019)
         #quote: >
           #Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
@@ -82,7 +82,7 @@ content:
       - layout: top-left
         title: Integrated Master in Architecture Engineering
         sub_title: Aristotle University of Thessaloniki
-        caption: Date Range (eg. 2016 - 2019)
+        #caption: Date Range (eg. 2016 - 2019)
         #quote: >
           #Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
