@@ -17,8 +17,9 @@ linkedin_username: ""
 # About Section
 about_profile_image: images/avatar.png
 about_content: |
-  Enthusiastic UI/UX Designer.
-
+  Enthusiastic Product Designer with a passion for creating intuitive and engaging user experiences across web and mobile platforms.
+  Skilled in translating complex problems into elegant design solutions. Experienced in collaborating with cross-functional teams to deliver user-centered products that align with business goals.
+  
 content:
   
   - title: Experience
@@ -66,10 +67,20 @@ content:
       - layout: top-left
         title: MSc in Human-Computer Interaction
         sub_title: University of Patras
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Excited to start this master program
 
       - layout: top-left
         title: Integrated Master in Architecture Engineering
         sub_title: Aristotle University of Thessaloniki
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Trained in architectural design, learning to transform concepts into detailed plans while ensuring both form and function are optimized.
 
   - title: Skills
     layout: text
