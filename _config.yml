@@ -31,7 +31,7 @@ content:
       sub_title: Product Designer
       caption: May 2025 - Present
       description: | # this will include new lines to allow paragraphs
-        - Designed end-to-end user experiences for web and mobile platform
+        Designed end-to-end user experiences for web and mobile platform
 
             
       -layout: left
