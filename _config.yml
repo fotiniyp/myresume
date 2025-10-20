@@ -31,20 +31,26 @@ content:
         caption: May 2025 - Present
         description: |
           - Designed end-to-end user experiences for web and mobile platform
+          - Developed wireframes, interactive prototypes, and design mockups through collaborative brainstorming sessions
+          - Collaborated with cross-functional teams (PMs, developers, marketing) to align design solutions with business goals
+          - Ensured accessibility, responsive design, and seamless experiences across devices
 
       - layout: left
         title: UI/UX Desginer
         sub_title: Core Group
         caption: Sept 2022 - Apr 2025
         description: |
-          Designed end-to-end user experiences for web and mobile platform
+          - Redesigned the product platform to enhance overall user experience and engagement
+          - Conducted user research and usability testing to uncover pain points and refine design solutions
+          - Collaborated closely with developers to ensure design feasibility, consistency, and implementation quality across platforms
+         
 
       - layout: left
-        title: Αρψηιτεψτ
+        title: Architect
         sub_title: MMA Architects
         caption: Sept 2021 - Aug 2022
         description: |
-          Designed end-to-end user experiences for web and mobile platform
+          Created detailed architectural plans and 3D models for residential projects
           
   - title: Certifications
     layout: list
