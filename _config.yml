@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Foteini Ypsilanti
-title: Product Designer
+name: F
+title: Web Developer
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -18,7 +18,7 @@ linkedin_username: effie-lt
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-#about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Effie and I'm a Web Developer. As well as web developer I also have experience as a graphic designer. I have worked at a number of companies gaining teamwork skill. Also I am a member of the HCI Webring check this out [here](https://upatras-hci-2022.github.io/webring/).
 
