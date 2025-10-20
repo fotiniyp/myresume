@@ -1,106 +1,91 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: sproogen/modern-resume-theme
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Foteini Ypsilanti
-title: Product Desinger
+title: Product Designer
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  -
+github_username: -
 linkedin_username: -
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Enthousiastic UI/UX Designer.
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: |
+  Enthusiastic UI/UX Designer.
 
 content:
-  -title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
-      -layout: left
-      title: Novibet
-      sub_title: Product Designer
-      caption: May 2025 - Present
-      description: | # this will include new lines to allow paragraphs
-        Designed end-to-end user experiences for web and mobile platform
+      - layout: left
+        title: Novibet
+        sub_title: Product Designer
+        caption: May 2025 - Present
+        description: |
+          Designed end-to-end user experiences for web and mobile platforms.
 
-            
-      -layout: left
-      title: Core Group
-      sub_title: UI/UX Designer
-      caption: Sept 2022 - Apr 2025
-      description: | # this will include new lines to allow paragraphs
-       text
-            
-   
-      -layout: left
-      title: MMA Architectes
-      sub_title: Architect
-      caption: Sept 2021 - Aug 2022
-      description: | # this will include new lines to allow paragraphs
-        Created detailed architectural plans and 3D models for residential projects
-            
-      
-            
-  -title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Core Group
+        sub_title: UI/UX Designer
+        caption: Sept 2022 - Apr 2025
+        description: |
+          Redesigned user journeys and created prototypes for web applications.
+
+      - layout: left
+        title: MMA Architects
+        sub_title: Architect
+        caption: Sept 2021 - Aug 2022
+        description: |
+          Created detailed architectural plans and 3D models for residential projects.
+
+  - title: Education
+    layout: list
     content:
-      -layout: left
-      title: MSc in Human Computer Interaction
-      #caption: 2025 - present
-      sub_title: University of Patras
-      #description: | # this will include new lines to allow paragraphs
-        #text
-         
-      -layout: left
-      title: Integrated Master in Architectural Engineering
-      #caption: 2018 - 2020
-      sub_title: Aristotle University of Thessaloniki
-      #description: | # this will include new lines to allow paragraphs
-       #text 
-    
-      
-    
-  -title: Skills
+      - layout: left
+        title: MSc in Human Computer Interaction
+        sub_title: University of Patras
+
+      - layout: left
+        title: Integrated Master in Architectural Engineering
+        sub_title: Aristotle University of Thessaloniki
+
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Figma • Adobe XD • Autocad • Rhino 3D • Adobe Photoshop • Adobe Indesign • HTML • CSS
-      
-  
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References on request
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+# remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
